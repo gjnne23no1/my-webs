@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+a {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  color: white;
+  text-shadow: 0 0 10px white,
+               0 0 20px white,
+               0 0 30px white,
+               0 0 40px white;
+}
